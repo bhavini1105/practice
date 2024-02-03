@@ -13,7 +13,7 @@ Year of invention: 1980
 Tag: keywords which defines that how web browser will format and display the content
 
 Element:An HTML element is defined by a start tag, some content, and an end tag.
-Examples:<tagname>......</tagname>,<h1>to<h6>,<p>,<ui>,<ui>,etc
+Examples:<tagname>......</tagname>,<h1>to<h6>(use for give title),<p>,<ui>,<ui>,etc
 
 Attributes: attributes are special words which provide additional information about the elements.
 Examples:For img : src,alt,height,width
