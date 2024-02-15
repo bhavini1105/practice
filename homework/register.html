@@ -2,39 +2,27 @@
 <html>
     <head>
         <meta charset="UTf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Login Page</title>
     </head>
-    <body style="background-image: url(reg.jpg);">
-        <h1><center><font color="crimson"><i>Signin Page</i></font></center></h1>
-        <form>
-            <div><center>
-    
-                <div>
-                    <label for="name" ><strong> First Name :</strong></label>
-                    <input method="get" name="name" placeholder="Enter First name">
-                </div>
-                <br>
-                <div>
-                    <label for="name" ><strong> Last Name :</strong></label>
-                    <input method="get" placeholder="Enter Last name">
-                </div>
-                <br>
-                <div>
-                    <label for="email" ><strong> Your Email :</strong></label>
-                    <input method="get" name="email" placeholder="example123@gmail.com" required>
-                </div>
-                <br>
-                <div>
-                    <label for="password" ><strong> Password :</strong></label>
-                    <input method="get" name="password" placeholder="password" required>
-                </div>
-                <br>
+    <body style="background-image: url(loginpagep.jpg);">
+        <center>
+            <font color="crimson">
+            <h1><i><strong>LOGIN FORM</strong></i></h1></font>
+            <form action="./login.html">
+                <label>Enter  Name :</label>
+                  <input type="text" name="name" placeholder="Your  Name" required>
+                  <br><br>
+                <label>Enter Email :</label>
+              <input type="email" name="email" placeholder="example122@gmail.com" required>
+              <br><br>
 
-                <label for="Choose State"> <strong>  State:</strong> </label>
+              <label>Enter Password</label>
+              <input type="password" name="password" placeholder="Enter Password ">
+              <br><br>
+              <label for="Choose State"> Choose  State : </label>
                 <select name="State" id="choose State">
                     <option value="">Choose State</option>
-                    <option value="Punjab"> Punjab</option>
                     <option value="Gujarat">Gujarat</option>
                     <option value="Mumbai">Mumbai</option>
                     <option value="Banglore">Banglore</option>
@@ -48,34 +36,11 @@
                     <option value="Madhya Pradesh">Madhya Pradesh</option>
                 </select><br><br>
             
-
-                <label><input type="radio" name="gender" value="Male" /> Male</label>
-                <label><input type="radio" name="gender" value="Female" /> Female</label>
-                <label><input type="radio" name="gender" value="Other"/>Other</label>
-    
-                <form method="post">
-                    <fieldset>
-                      <legend>Do you agree to the terms?</legend>
-                      <p><h3> an agree/disagree matrix question type packs a lot of information in a small space—it’s essentially one question that asks respondents to 
-                        agree or disagree with a series of statements—respondents may not be careful about how how they answer these questions.
-
-                        We call this phenomenon straight-lining. (Basically, straight-lining is when a respondent moves down a series of statements too quickly, selecting the same answer choice for all.)
-                        
-                        Obviously, this is a major problem if you’re trying to collect accurate data. And, in the case of your doctor’s office, as a result of straight-lining, 
-                        you won’t be able to use the data you collect to improve services and make informed decisions.</h3></p>
-                      <label><input type="radio" name="radio" value="yes" /> Yes</label>
-                      <label><input type="radio" name="radio" value="no" /> No</label>
-                    </fieldset>
-                  </form><br>
-                  <br>
-    
-                  <button class="account " type="button" ><a href="./index.html">Create Account</a></button>
-                <input type="reset" value="Reset" />
-    
-            </center>
-    
-            </div>
+              <label><input type="radio" name="radio" value="yes" /> Yes</label>
+              <label><input type="radio" name="radio" value="no" /> No</label>
+               <br><br>
+                    <input type="submit"  value="Login" style="margin: 10px; padding: 10px; background-color: burlywood;"/>
             </form>
-           
+        </center>
     </body>
 </html>

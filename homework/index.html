@@ -3,59 +3,79 @@
     <head>
         <meta charset="UTf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Index</title>
-        
+        <title>Login Page</title>
     </head>
-    <body style="background-image: url(tbg.jpg);">
-       <nav style="display: block;" >
-        <div style="margin: 10px; word-spacing: 15px;">
-            
-        <a href="#home">Home</a>
-        <a href="./htable.html">Category</a>
-        <a href="./recipes.html">Recipes</a>
-        <a href="./about.html">AboutUs</a>
-        <a href="./contact.html">Contact</a>
-        <span style="float: right;">
-            <button type="submit"><a href="./register.html">Login Page</a></button>
-        </span>
-        </div>
-       </nav>
+    <body style="background-image: url(reg.jpg);">
+        <h1><center><font color="crimson"><i>Signin Page</i></font></center></h1>
+        <form>
+            <div><center>
+    
+                <div>
+                    <label for="name" ><strong> First Name :</strong></label>
+                    <input method="get" name="name" placeholder="Enter First name">
+                </div>
+                <br>
+                <div>
+                    <label for="name" ><strong> Last Name :</strong></label>
+                    <input method="get" placeholder="Enter Last name">
+                </div>
+                <br>
+                <div>
+                    <label for="email" ><strong> Your Email :</strong></label>
+                    <input method="get" name="email" placeholder="example123@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="password" ><strong> Password :</strong></label>
+                    <input method="get" name="password" placeholder="password" required>
+                </div>
+                <br>
 
-       <div>
-        <center><h1><i><font color="darkgreen">ONLINE</font> GROCERY <font color="white">SHOPPING</font></i></h1></center>
-        <article>
-            <center><font color="blue"><h2>INTRODUCTION</h2></font></center>
+                <label for="Choose State"> <strong>  State:</strong> </label>
+                <select name="State" id="choose State">
+                    <option value="">Choose State</option>
+                    <option value="Punjab"> Punjab</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Lacknow">Lacknow</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Rajstan">Rajstan</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                </select><br><br>
             
-          <em>  <p>Online grocery shopping is a<mark> way of buying food and other household necessities using a web-based shopping service.</mark> There are two basic methods that people can use to purchase these items online. One is to order them from a local grocery store that participates in online shopping. A customer can then arrange for a home delivery directly from the store, or he can pick up his order at the store once an employee has assembled it.
-                 Another common practice is to order groceries from a large company, such as Amazon or Net grocer,that will ship the items to one’s home.</p></em>
-             </article>
-        <article>
-            <center><font color="blue"><h2>LITERATURE SURVEY</h2></font></center>
-            
-           <b><p>Online grocery shopping is a way of buying food and other household necessities using a web-based shopping service. There are two basic methods that people can use to purchase these items online. One is to order them from a local grocery store that participates in online shopping. A customer can then arrange for a home delivery directly from the store, or he can pick up his order at the store once an employee has assembled it.
-                 Another common practice is to order groceries from a large company, such as Amazon or Net grocer,that will ship the items to one’s home.</p></b>
-            
-        </article>
-        <article>
-            <center><font color="blue"><h2>PROBLEM STATEMENT</h2></font></center>
-            <strong>
-            <p>There are a lot of websites on internet whereby it offer a variety of product and services for consumer can find and buy through online such as shoe, apparel, sun glasses and more Moreover, the online also provides 
-            some of the services which is<mark> paying bill online, booking a transport ticket and more.</mark></p></strong>
-        </article>
-       </div>
-       
-       <center>
-       <table>
-        <tbody>
-            <tr>
-                <td><img src="gros.jpg" height="300px" width="400px"></td>
-                <td><img src="gros1.jpg" height="300px" width="400px"></td>
-                <td><img src="gros2.jpg" height="300px" width="400px"></td>
-            </tr>
-        </tbody>
-       </table>
-    </center>
 
+                <label><input type="radio" name="gender" value="Male" /> Male</label>
+                <label><input type="radio" name="gender" value="Female" /> Female</label>
+                <label><input type="radio" name="gender" value="Other"/>Other</label>
+    
+                <form method="post">
+                    <fieldset>
+                      <legend>Do you agree to the terms?</legend>
+                      <p><h3> an agree/disagree matrix question type packs a lot of information in a small space—it’s essentially one question that asks respondents to 
+                        agree or disagree with a series of statements—respondents may not be careful about how how they answer these questions.
+
+                        We call this phenomenon straight-lining. (Basically, straight-lining is when a respondent moves down a series of statements too quickly, selecting the same answer choice for all.)
+                        
+                        Obviously, this is a major problem if you’re trying to collect accurate data. And, in the case of your doctor’s office, as a result of straight-lining, 
+                        you won’t be able to use the data you collect to improve services and make informed decisions.</h3></p>
+                      <label><input type="radio" name="radio" value="yes" /> Yes</label>
+                      <label><input type="radio" name="radio" value="no" /> No</label>
+                    </fieldset>
+                  </form><br>
+                  <br>
+    
+                  <button class="account " type="button" ><a href="./home.html">Create Account</a></button>
+                <input type="reset" value="Reset" />
+    
+            </center>
+    
+            </div>
+            </form>
+           
     </body>
 </html>
