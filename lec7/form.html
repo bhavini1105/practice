@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Log In Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                background-image: url(fb.jpg);
+            }
+            h1 {
+                text-align: center;
+            }
+            .para{
+                font-family: "Oswald", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+            }
+            .para1{
+                font-family: "Protest Revolution", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+
+            }
+            label{
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+            div {
+                text-align: center;
+                padding: 0.5rem;
+                margin: 0.5rem;
+                justify-content: space-between;
+                
+            }
+            input[type=text]{
+                background-color: whitesmoke;
+                color: crimson;
+                font-size: 1.1rem;
+            }
+            input[type=email]{
+                background-color: whitesmoke;
+                color: crimson;
+                font-size: 1.1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <div>
+            <form>
+                <div>
+                    <label class="name">Enter Name :</label>
+                    <input type="text" placeholder="Enter Name">
+                </div>
+                <div>
+                    <label class="name">Enter Last Name :</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div>
+                    <label>Enter Email :</label>
+                    <input type="email" placeholder="Enter Email" required>
+                </div>
+                <div>
+                    <label for="state">Choose State :</label>
+                    <select>
+                        
+                        <option value="">Choose State</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglor">Banglor</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Channai">Channai</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Choose Gender :</label>
+                    <label>
+                    <input type="radio" name="radio" value="FEMALE">FEMALE</label>
+                    <label> 
+                    <input type="radio" name="radio" value="MALE">MALE</label> 
+                </div>
+                <div>
+                    <fieldset>
+                        <legend><b>DO YOU AGREE?</b></legend>
+                        <p class="para">
+                            The most important thing about the content is anyone in this world can create whatever content according to their needs. 
+                            They can publish through social media or other platforms. No limitations or boundaries for content.
+                            Several types of content engage people. Especially words, images, audio, videos, and many more.</p>
+                             <p class="para1">The percentage of attraction is higher for
+                             videos than for other content. So, video content is always outstanding content in the content family.
+                            The eye-catching and coherent article attracts the readers.</p>
+                        <label><input type="radio" name="radio" value="yes" /> Yes</label>
+                        <label><input type="radio" name="radio" value="no" /> No</label>
+                    
+                    </fieldset>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
