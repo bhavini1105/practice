@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(./back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main{
+    width: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background: url(./main.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur;
+}

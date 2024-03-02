@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'formf';
+    src: url('./ProtestRiot-Regular.ttf');
+}
+
+
+h3{
+    font-size: 2rem;
+    font-family: formf;
+    text-align: center;
+}
+.table{
+    display: flex;
+    align-content: center;
+}
+.Log{
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    margin-left: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    gap: 15px;
+    align-content: center;
+    margin-top: 50px;
+}
+.name1{
+    margin: auto;
+    border-radius: 12px;
+    width: 350px;
+    padding: 15px;
+    border: 2px solid brown;
+}
+.btn{
+    width: 100px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 25px;
+
+}
+#icon{
+    align-content: center;
+}
